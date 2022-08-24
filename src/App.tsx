@@ -1,11 +1,11 @@
-import ClippedDrawerRight from "./ClippedDrawerRight";
+import CustomDrawer from "./CustomDrawer";
 
 function App() {
   return (
     <>
       <nav style={{ position: "sticky", top: 0 }}>hello header</nav>
 
-      <ClippedDrawerRight />
+      <CustomDrawer />
     </>
   );
 }
